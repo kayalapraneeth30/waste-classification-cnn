@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Deep Learning weights & cache
+saved_models/*.h5
+saved_models/*.weights.h5
+*.keras
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.log
